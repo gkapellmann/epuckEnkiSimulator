@@ -1,0 +1,37 @@
+﻿Build started 29/03/2017 16:08:23.
+     1>Project "C:\Users\uos\Google Drive\Software\Enki\PlaygroundQT SingleThread\EnkiViewer\EnkiViewer.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Qt\4.8.6\include /IC:\Qt\4.8.6\include\QtOpenGL /IC:\Qt\4.8.6\include\QtCore /IC:\Qt\4.8.6\include\QtGui /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /FR"Release\\" /Gd /TP /analyze- /errorReport:prompt ..\PlaygroundQT\EnkiIncludes\viewer\EPuckModel.cpp ..\PlaygroundQT\EnkiIncludes\viewer\MarxbotModel.cpp ..\PlaygroundQT\EnkiIncludes\viewer\objects\EPuckBody.cpp ..\PlaygroundQT\EnkiIncludes\viewer\objects\EPuckRest.cpp ..\PlaygroundQT\EnkiIncludes\viewer\objects\EPuckRing.cpp ..\PlaygroundQT\EnkiIncludes\viewer\objects\EPuckWheelLeft.cpp ..\PlaygroundQT\EnkiIncludes\viewer\objects\EPuckWheelRight.cpp ..\PlaygroundQT\EnkiIncludes\viewer\objects\MarxbotBase.cpp ..\PlaygroundQT\EnkiIncludes\viewer\objects\MarxbotWheel.cpp ..\PlaygroundQT\EnkiIncludes\viewer\Viewer.cpp "qrc_enki-viewer-textures.cxx"
+         EPuckModel.cpp
+         MarxbotModel.cpp
+         EPuckBody.cpp
+         EPuckRest.cpp
+         EPuckRing.cpp
+         EPuckWheelLeft.cpp
+         EPuckWheelRight.cpp
+         MarxbotBase.cpp
+         MarxbotWheel.cpp
+         Viewer.cpp
+     1>..\PlaygroundQT\EnkiIncludes\viewer\Viewer.cpp(589): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\PlaygroundQT\EnkiIncludes\viewer\Viewer.cpp(590): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         qrc_enki-viewer-textures.cxx
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\uos\Google Drive\Software\Enki\PlaygroundQT SingleThread\\Libraries\Release\EnkiViewer.lib" /NOLOGO /LTCG Release\EPuckModel.obj
+         Release\MarxbotModel.obj
+         Release\EPuckBody.obj
+         Release\EPuckRest.obj
+         Release\EPuckRing.obj
+         Release\EPuckWheelLeft.obj
+         Release\EPuckWheelRight.obj
+         Release\MarxbotBase.obj
+         Release\MarxbotWheel.obj
+         Release\Viewer.obj
+         "Release\qrc_enki-viewer-textures.obj"
+         EnkiViewer.vcxproj -> C:\Users\uos\Google Drive\Software\Enki\PlaygroundQT SingleThread\\Libraries\Release\EnkiViewer.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o"C:\Users\uos\Google Drive\Software\Enki\PlaygroundQT SingleThread\\Libraries\Release\EnkiViewer.bsc" /n Release\EPuckModel.sbr Release\MarxbotModel.sbr Release\EPuckBody.sbr Release\EPuckRest.sbr Release\EPuckRing.sbr Release\EPuckWheelLeft.sbr Release\EPuckWheelRight.sbr Release\MarxbotBase.sbr Release\MarxbotWheel.sbr Release\Viewer.sbr "Release\qrc_enki-viewer-textures.sbr"
+     1>Done Building Project "C:\Users\uos\Google Drive\Software\Enki\PlaygroundQT SingleThread\EnkiViewer\EnkiViewer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:50.15
