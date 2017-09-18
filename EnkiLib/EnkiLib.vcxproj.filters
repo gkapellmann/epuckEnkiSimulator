@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\robots">
+      <UniqueIdentifier>{169f4f67-a5e3-4194-9d05-128c9098f02b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\robots\e-puck">
+      <UniqueIdentifier>{0f49cc30-f60f-40b8-8aa8-5cdc03cf7ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\robots\khepera">
+      <UniqueIdentifier>{51521ba3-ca38-4058-bf6a-7fcb6517e2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\robots\marxbot">
+      <UniqueIdentifier>{7a71afe1-ddac-4496-ac1a-6971fc0e7ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\robots\s-bot">
+      <UniqueIdentifier>{a48341cb-2863-4e2d-b9c5-72f7448a8639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\robots">
+      <UniqueIdentifier>{2afe0724-fb7e-474a-9542-0b6d5f1b1fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\interactions">
+      <UniqueIdentifier>{7e7e37c9-828a-4ab3-9d5a-0c9c4bcf7592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\interactions">
+      <UniqueIdentifier>{28f5aa18-34b4-412d-8d0a-721131b6aeee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\robots\e-puck">
+      <UniqueIdentifier>{80157f80-a8c7-4eab-b4bb-4d44b26b0d24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\robots\khepera">
+      <UniqueIdentifier>{dd4adce1-d5f9-442f-8a0b-87c5ac7bbc48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\robots\marxbot">
+      <UniqueIdentifier>{abcc1c0c-fdef-41b4-b300-410749e9ed00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\robots\s-bot">
+      <UniqueIdentifier>{b5fc9ea8-d48e-4245-a829-bc98ccbc6af8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\BluetoothBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\Geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\PhysicalEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\Types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\interactions\ActiveSoundSource.cpp">
+      <Filter>Source Files\interactions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\interactions\Bluetooth.cpp">
+      <Filter>Source Files\interactions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\interactions\CircularCam.cpp">
+      <Filter>Source Files\interactions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\interactions\IRSensor.cpp">
+      <Filter>Source Files\interactions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\interactions\Microphone.cpp">
+      <Filter>Source Files\interactions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\robots\DifferentialWheeled.cpp">
+      <Filter>Source Files\robots</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\robots\s-bot\Sbot.cpp">
+      <Filter>Source Files\robots\s-bot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\robots\s-bot\SbotObject.cpp">
+      <Filter>Source Files\robots\s-bot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\robots\marxbot\Marxbot.cpp">
+      <Filter>Source Files\robots\marxbot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\robots\khepera\Khepera.cpp">
+      <Filter>Source Files\robots\khepera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\robots\e-puck\EPuck.cpp">
+      <Filter>Source Files\robots\e-puck</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\BluetoothBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\Geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\Interaction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\PhysicalEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\Random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\interactions\ActiveSoundSource.h">
+      <Filter>Header Files\interactions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\interactions\Bluetooth.h">
+      <Filter>Header Files\interactions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\interactions\CircularCam.h">
+      <Filter>Header Files\interactions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\interactions\IRSensor.h">
+      <Filter>Header Files\interactions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\interactions\Microphone.h">
+      <Filter>Header Files\interactions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\robots\DifferentialWheeled.h">
+      <Filter>Header Files\robots</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\robots\s-bot\Sbot.h">
+      <Filter>Header Files\robots\s-bot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\robots\s-bot\SbotObject.h">
+      <Filter>Header Files\robots\s-bot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\robots\marxbot\Marxbot.h">
+      <Filter>Header Files\robots\marxbot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\robots\khepera\Khepera.h">
+      <Filter>Header Files\robots\khepera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\robots\e-puck\EPuck.h">
+      <Filter>Header Files\robots\e-puck</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

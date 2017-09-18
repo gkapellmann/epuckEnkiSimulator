@@ -1,0 +1,51 @@
+﻿Build started 29/03/2017 16:08:22.
+     1>Project "C:\Users\uos\Google Drive\Software\Enki\PlaygroundQT SingleThread\EnkiLib\EnkiLib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\uos\Google Drive\Software\Enki\PlaygroundQT SingleThread\\PlaygroundQT\EnkiIncludes" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /FR"Release\\" /Gd /TP /analyze- /errorReport:prompt ..\PlaygroundQT\EnkiIncludes\BluetoothBase.cpp ..\PlaygroundQT\EnkiIncludes\Geometry.cpp ..\PlaygroundQT\EnkiIncludes\interactions\ActiveSoundSource.cpp ..\PlaygroundQT\EnkiIncludes\interactions\Bluetooth.cpp ..\PlaygroundQT\EnkiIncludes\interactions\CircularCam.cpp ..\PlaygroundQT\EnkiIncludes\interactions\IRSensor.cpp ..\PlaygroundQT\EnkiIncludes\interactions\Microphone.cpp ..\PlaygroundQT\EnkiIncludes\PhysicalEngine.cpp ..\PlaygroundQT\EnkiIncludes\robots\DifferentialWheeled.cpp "..\PlaygroundQT\EnkiIncludes\robots\e-puck\EPuck.cpp" ..\PlaygroundQT\EnkiIncludes\robots\khepera\Khepera.cpp ..\PlaygroundQT\EnkiIncludes\robots\marxbot\Marxbot.cpp "..\PlaygroundQT\EnkiIncludes\robots\s-bot\Sbot.cpp" "..\PlaygroundQT\EnkiIncludes\robots\s-bot\SbotObject.cpp" ..\PlaygroundQT\EnkiIncludes\Types.cpp
+         BluetoothBase.cpp
+         Geometry.cpp
+         ActiveSoundSource.cpp
+     1>..\PlaygroundQT\EnkiIncludes\interactions\ActiveSoundSource.cpp(97): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>..\PlaygroundQT\EnkiIncludes\interactions\ActiveSoundSource.cpp(100): warning C4018: '>=' : signed/unsigned mismatch
+         Bluetooth.cpp
+         CircularCam.cpp
+     1>..\PlaygroundQT\EnkiIncludes\interactions\CircularCam.cpp(322): warning C4244: 'initializing' : conversion from 'const double' to 'const int', possible loss of data
+         IRSensor.cpp
+         Microphone.cpp
+         PhysicalEngine.cpp
+     1>..\PlaygroundQT\EnkiIncludes\PhysicalEngine.cpp(754): warning C4244: '=' : conversion from 'const double' to 'int', possible loss of data
+     1>..\PlaygroundQT\EnkiIncludes\PhysicalEngine.cpp(755): warning C4244: '=' : conversion from 'const double' to 'int', possible loss of data
+     1>..\PlaygroundQT\EnkiIncludes\PhysicalEngine.cpp(759): warning C4244: '=' : conversion from 'const double' to 'int', possible loss of data
+     1>..\PlaygroundQT\EnkiIncludes\PhysicalEngine.cpp(760): warning C4244: '=' : conversion from 'const double' to 'int', possible loss of data
+     1>..\PlaygroundQT\EnkiIncludes\PhysicalEngine.cpp(765): warning C4018: '>=' : signed/unsigned mismatch
+         DifferentialWheeled.cpp
+         EPuck.cpp
+         Khepera.cpp
+         Marxbot.cpp
+         Sbot.cpp
+         SbotObject.cpp
+         Types.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\uos\Google Drive\Software\Enki\PlaygroundQT SingleThread\\Libraries\Release\EnkiLib.lib" /NOLOGO /LTCG Release\BluetoothBase.obj
+         Release\Geometry.obj
+         Release\ActiveSoundSource.obj
+         Release\Bluetooth.obj
+         Release\CircularCam.obj
+         Release\IRSensor.obj
+         Release\Microphone.obj
+         Release\PhysicalEngine.obj
+         Release\DifferentialWheeled.obj
+         Release\EPuck.obj
+         Release\Khepera.obj
+         Release\Marxbot.obj
+         Release\Sbot.obj
+         Release\SbotObject.obj
+         Release\Types.obj
+         EnkiLib.vcxproj -> C:\Users\uos\Google Drive\Software\Enki\PlaygroundQT SingleThread\\Libraries\Release\EnkiLib.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o"C:\Users\uos\Google Drive\Software\Enki\PlaygroundQT SingleThread\\Libraries\Release\EnkiLib.bsc" /n Release\BluetoothBase.sbr Release\Geometry.sbr Release\ActiveSoundSource.sbr Release\Bluetooth.sbr Release\CircularCam.sbr Release\IRSensor.sbr Release\Microphone.sbr Release\PhysicalEngine.sbr Release\DifferentialWheeled.sbr Release\EPuck.sbr Release\Khepera.sbr Release\Marxbot.sbr Release\Sbot.sbr Release\SbotObject.sbr Release\Types.sbr
+     1>Done Building Project "C:\Users\uos\Google Drive\Software\Enki\PlaygroundQT SingleThread\EnkiLib\EnkiLib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.78

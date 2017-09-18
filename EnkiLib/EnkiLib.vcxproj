@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EEAEDAB0-F12E-4C08-840A-9D316C00339A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>EnkiLib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)\PlaygroundQT\EnkiIncludes;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)\Libraries\Debug\</OutDir>
+    <TargetName>EnkiLib_Debug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)\PlaygroundQT\EnkiIncludes;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)\Libraries\Release\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)\PlaygroundQT\EnkiIncludes</AdditionalIncludeDirectories>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\BluetoothBase.cpp" />
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\Geometry.cpp" />
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\interactions\ActiveSoundSource.cpp" />
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\interactions\Bluetooth.cpp" />
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\interactions\CircularCam.cpp" />
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\interactions\IRSensor.cpp" />
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\interactions\Microphone.cpp" />
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\PhysicalEngine.cpp" />
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\robots\DifferentialWheeled.cpp" />
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\robots\e-puck\EPuck.cpp" />
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\robots\khepera\Khepera.cpp" />
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\robots\marxbot\Marxbot.cpp" />
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\robots\s-bot\Sbot.cpp" />
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\robots\s-bot\SbotObject.cpp" />
+    <ClCompile Include="..\PlaygroundQT\EnkiIncludes\Types.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\BluetoothBase.h" />
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\Geometry.h" />
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\Interaction.h" />
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\interactions\ActiveSoundSource.h" />
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\interactions\Bluetooth.h" />
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\interactions\CircularCam.h" />
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\interactions\IRSensor.h" />
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\interactions\Microphone.h" />
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\PhysicalEngine.h" />
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\Random.h" />
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\robots\DifferentialWheeled.h" />
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\robots\e-puck\EPuck.h" />
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\robots\khepera\Khepera.h" />
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\robots\marxbot\Marxbot.h" />
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\robots\s-bot\Sbot.h" />
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\robots\s-bot\SbotObject.h" />
+    <ClInclude Include="..\PlaygroundQT\EnkiIncludes\Types.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
